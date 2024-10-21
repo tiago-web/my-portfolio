@@ -263,6 +263,11 @@ const createI18nContent = (t) => {
       },
     ],
   };
+
+  const agenda = {
+    label: t("agenda.label"),
+  };
+
   return {
     person,
     social,
@@ -272,6 +277,7 @@ const createI18nContent = (t) => {
     blog,
     work,
     gallery,
+    agenda,
   };
 };
 

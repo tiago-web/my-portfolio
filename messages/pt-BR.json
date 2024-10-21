@@ -77,5 +77,8 @@
   },
   "projectCard": {
     "label": "Ler Estudo de Caso"
+  },
+  "agenda": {
+    "label": "Agendar uma chamada"
   }
 }

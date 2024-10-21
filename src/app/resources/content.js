@@ -295,4 +295,8 @@ const gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+const agenda = {
+  label: "Agenda",
+};
+
+export { person, social, newsletter, home, about, blog, work, gallery, agenda };
