@@ -1,0 +1,81 @@
+{
+  "person": {
+    "role": "Desenvolvedor FullStack & Blockchain"
+  },
+  "newsletter": {
+    "title": "Inscreva-se na Newsletter de {firstName}",
+    "description": "",
+    "button": "Inscreva-se"
+  },
+  "home": {
+    "label": "Início",
+    "title": "Portfólio de {name}",
+    "description": "Site de portfólio que exibe meu trabalho como {role}",
+    "headline": "Engenheiro de software",
+    "subline": "Sou Tiago, um engenheiro de software na Starter Labs, onde construo soluções web3 escaláveis e seguras. Nas horas vagas, crio meus próprios projetos."
+  },
+  "about": {
+    "label": "Sobre",
+    "title": "Sobre mim",
+    "description": "Conheça {name}, {role} de {location}",
+    "intro": {
+      "title": "Introdução",
+      "description": "Tiago é um engenheiro de software localizado no Brasil, com uma paixão por transformar desafios complexos em soluções escaláveis e seguras. Sua especialidade está no desenvolvimento de aplicativos descentralizados (dApps), contratos inteligentes e soluções baseadas em blockchain, que conectam tecnologias web tradicionais ao emergente ecossistema Web3."
+    },
+    "work": {
+      "title": "Experiência Profissional",
+      "experiences": {
+        "StarterLabs": {
+          "timeframe": "Fev 2024 – Presente",
+          "role": "Desenvolvedor FullStack Blockchain",
+          "achievements": "Otimização de uma plataforma IDO Launchpad, melhorando a experiência do usuário e o desempenho.; Tradução de designs do Figma em frontends perfeitos, responsivos e acessíveis usando Next.js.; Colaboração com uma equipe multifuncional em um ambiente ágil para implementar novas funcionalidades regularmente."
+        },
+        "AGPSWeb": {
+          "timeframe": "Set 2023 – Fev 2024",
+          "role": "Engenheiro de Software",
+          "achievements": "Desenvolvimento de uma plataforma odontológica utilizando Next.js 14, facilitando a busca eficiente de clínicas pelos usuários.; Criação de uma plataforma de reuniões WebRTC com chat e vídeo em tempo real, melhorando as consultas virtuais.; Automação da conversão de leads de páginas de captura para o CRM, reduzindo a entrada manual de dados."
+        }
+      }
+    },
+    "studies": {
+      "title": "Formação",
+      "institutions": {
+        "LambtonCollege": {
+          "description": "Diploma em Programação."
+        },
+        "Rocketseat": {
+          "description": "Certificado em Desenvolvimento Web/Desenvolvimento Mobile."
+        }
+      }
+    },
+    "technical": {
+      "title": "Habilidades Técnicas",
+      "skills": {
+        "Solidity": {
+          "description": "Capaz de desenvolver contratos inteligentes para blockchains compatíveis com EVM."
+        },
+        "Nextjs": {
+          "description": "Construo apps ReactJS de próxima geração com Next.js + Supabase."
+        }
+      }
+    }
+  },
+  "blog": {
+    "label": "Blog",
+    "title": "Escrevo sobre web3 e desenvolvimento de software...",
+    "description": "Leia o que {name} tem feito recentemente"
+  },
+  "work": {
+    "label": "Trabalho",
+    "title": "Meus projetos",
+    "description": "Projetos de {name}"
+  },
+  "gallery": {
+    "label": "Galeria",
+    "title": "Minha galeria de fotos",
+    "description": "Uma coleção de fotos de {name}"
+  },
+  "projectCard": {
+    "label": "Ler Estudo de Caso"
+  }
+}

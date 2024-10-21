@@ -69,7 +69,7 @@ const createI18nContent = (t) => {
     },
     calendar: {
       display: true,
-      link: "https://cal.com",
+      link: "https://calendly.com/tiagosoriano/30min",
     },
     intro: {
       display: true,
@@ -81,28 +81,33 @@ const createI18nContent = (t) => {
       title: t("about.work.title"),
       experiences: [
         {
-          company: "FLY",
-          timeframe: t("about.work.experiences.FLY.timeframe"),
-          role: t("about.work.experiences.FLY.role"),
-          achievements: t("about.work.experiences.FLY.achievements").split(";"),
+          company: "Starter Labs",
+          timeframe: t("about.work.experiences.StarterLabs.timeframe"),
+          role: t("about.work.experiences.StarterLabs.role"),
+          achievements: t(
+            "about.work.experiences.StarterLabs.achievements"
+          ).split(";"),
           images: [
             // optional: leave the array empty if you don't want to display images
+            // todo: add images
             {
-              src: "/images/projects/project-01/cover-01.jpg",
-              alt: "Once UI Project",
+              src: "/images/projects/starter-labs/starter-platform.png",
+              alt: "Starter Labs",
               width: 16,
               height: 9,
             },
           ],
         },
         {
-          company: "Creativ3",
-          timeframe: t("about.work.experiences.Creativ3.timeframe"),
-          role: t("about.work.experiences.Creativ3.role"),
-          achievements: t("about.work.experiences.Creativ3.achievements").split(
+          company: "AGPS Web",
+          timeframe: t("about.work.experiences.AGPSWeb.timeframe"),
+          role: t("about.work.experiences.AGPSWeb.role"),
+          achievements: t("about.work.experiences.AGPSWeb.achievements").split(
             ";"
           ),
-          images: [],
+          images: [
+            // todo: add images
+          ],
         },
       ],
     },
@@ -111,19 +116,15 @@ const createI18nContent = (t) => {
       title: "Studies",
       institutions: [
         {
-          name: "University of Jakarta",
+          name: "Lambton College",
           description: (
-            <>
-              {t(
-                `about.studies.institutions.University of Jakarta.description`
-              )}
-            </>
+            <>{t(`about.studies.institutions.LambtonCollege.description`)}</>
           ),
         },
         {
-          name: "Build the Future",
+          name: "Rocketseat",
           description: (
-            <>{t("about.studies.institutions.Build the Future.description")}</>
+            <>{t("about.studies.institutions.Rocketseat.description")}</>
           ),
         },
       ],
@@ -133,33 +134,35 @@ const createI18nContent = (t) => {
       title: t("about.technical.title"),
       skills: [
         {
-          title: "Figma",
-          description: <>{t("about.technical.skills.Figma.description")}</>,
+          title: "Solidity",
+          description: <>{t("about.technical.skills.Solidity.description")}</>,
           images: [
-            {
-              src: "/images/projects/project-01/cover-02.jpg",
-              alt: "Project image",
-              width: 16,
-              height: 9,
-            },
-            {
-              src: "/images/projects/project-01/cover-03.jpg",
-              alt: "Project image",
-              width: 16,
-              height: 9,
-            },
+            // todo: add images
+            // {
+            //   src: "/images/projects/project-01/cover-02.jpg",
+            //   alt: "Project image",
+            //   width: 16,
+            //   height: 9,
+            // },
+            // {
+            //   src: "/images/projects/project-01/cover-03.jpg",
+            //   alt: "Project image",
+            //   width: 16,
+            //   height: 9,
+            // },
           ],
         },
         {
           title: "Next.js",
           description: <>{t("about.technical.skills.Nextjs.description")}</>, // "." not accepted in next-intl namespace
           images: [
-            {
-              src: "/images/projects/project-01/cover-04.jpg",
-              alt: "Project image",
-              width: 16,
-              height: 9,
-            },
+            // todo: add images
+            // {
+            //   src: "/images/projects/project-01/cover-04.jpg",
+            //   alt: "Project image",
+            //   width: 16,
+            //   height: 9,
+            // },
           ],
         },
       ],

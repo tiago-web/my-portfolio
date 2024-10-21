@@ -75,7 +75,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendly.com/tiagosoriano/30min",
   },
   intro: {
     display: true,
@@ -96,40 +96,48 @@ const about = {
     experiences: [
       {
         company: "Starter Labs",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        timeframe: "Feb 2024 – Present",
+        role: "FullStack Blockchain Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20%
-            increase in user engagement and 30% faster load times.
+            Optimized an IDO Launchpad, enhancing user experience and
+            performance.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows,
-            enabling designers to iterate 50% faster.
+            Translated Figma designs into pixel-perfect frontends, responsive
+            and accessible using Next.js.
+          </>,
+          <>
+            Collaborated with a cross-functional team in an agile environment to
+            deploy new features regularly.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          //   {
+          //     src: "/images/projects/project-01/cover-01.jpg",
+          //     alt: "Once UI Project",
+          //     width: 16,
+          //     height: 9,
+          //   },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "AGPS Web",
+        timeframe: "Sep 2023 – Feb 2024",
+        role: "Software Engineer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple
-            platforms, improving design consistency by 40%.
+            Developed a dental platform using Next.js 14 facilitating efficient
+            clinic searches for users.
           </>,
           <>
-            Led a cross-functional team to launch a new product line,
-            contributing to a 15% increase in overall company revenue.
+            Built a WebRTC meeting platform with real-time chat and video,
+            improving virtual consultations.
+          </>,
+          <>
+            Automated lead conversion from landing pages to CRM, reducing manual
+            data entry.
           </>,
         ],
         images: [],
@@ -141,12 +149,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Lambton College",
+        description: <>Computer Programming Degree</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Rocketseat",
+        description: <>Web Development/Mobile Development Certificate</>,
       },
     ],
   },
@@ -155,9 +163,9 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Solidity",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Able to develop smart contracts for EVM compatible chains.</>
         ),
         images: [
           {
@@ -177,7 +185,7 @@ const about = {
       {
         title: "Next.js",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Building next gen ReactJS apps with Next.js + Supabase.</>
         ),
         images: [
           {
@@ -194,7 +202,7 @@ const about = {
 
 const blog = {
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about web3 and software development...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -203,7 +211,7 @@ const blog = {
 const work = {
   label: "Work",
   title: "My projects",
-  description: `Design and dev projects by ${person.name}`,
+  description: `Projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };

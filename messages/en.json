@@ -1,81 +1,81 @@
 {
-    "person": {
-        "role": "Design Engineer"
-    },
-    "newsletter": {
-        "title": "Subscribe to {firstName}'s Newsletter",
-        "description": "I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering",
-        "button": "Sign up"
-    },
-    "home": {
-        "label": "Home",
-        "title": "{name}'s Portfolio",
-        "description": "Portfolio website showcasing my work as a {role}",
-        "headline": "Design engineer and builder",
-        "subline": "I'm Selene, a design engineer at FLY, where I craft intuitive user experiences. After hours, I build my own projects."
-    },
-    "about": {
-        "label": "About",
-        "title": "About me",
-        "description": "Meet {name}, {role} from {location}",
-        "intro": {
-            "title": "Introduction",
-            "description": "Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology."
-        },
-        "work": {
-            "title": "Work Experience",
-            "experiences": {
-                "FLY": {
-                    "timeframe": "2022 - Present",
-                    "role": "Senior Design Engineer",
-                    "achievements": "Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.;Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster."
-                },
-                "Creativ3": {
-                    "timeframe": "2018 - 2022",
-                    "role": "Lead Designer",
-                    "achievements": "Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.;Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue."
-                }
-            }
-        },
-        "studies": {
-            "title": "Studies",
-            "institutions": {
-                "University of Jakarta": {
-                    "description": "Studied software engineering."
-                },
-                "Build the Future": {
-                    "description": "Studied online marketing and personal branding."
-                }
-            }
-        },
-        "technical": {
-            "title": "Technical skills",
-            "skills": {
-                "Figma": {
-                    "description": "Able to prototype in Figma with Once UI with unnatural speed."
-                },
-                "Nextjs": {
-                    "description": "Building next gen apps with Next.js + Once UI + Supabase."
-                }
-            }
-        }
-    },
-    "blog": {
-        "label": "Blog",
-        "title": "Writing about design and tech...",
-        "description": "Read what {name} has been up to recently"
+  "person": {
+    "role": "FullStack & Blockchain Developer"
+  },
+  "newsletter": {
+    "title": "Subscribe to {firstName}'s Newsletter",
+    "description": "",
+    "button": "Sign up"
+  },
+  "home": {
+    "label": "Home",
+    "title": "{name}'s Portfolio",
+    "description": "Portfolio website showcasing my work as a {role}",
+    "headline": "Blockchain Engineer",
+    "subline": "I'm Tiago, a software engineer at Starter Labs, where I build scalable and secure web3 solutions. After hours, I build my own projects."
+  },
+  "about": {
+    "label": "About",
+    "title": "About me",
+    "description": "Meet {name}, {role} from {location}",
+    "intro": {
+      "title": "Introduction",
+      "description": "Tiago is a software engineer based in Brazil with a passion for transforming complex challenges into scalable and secure solutions. His expertise lies in developing decentralized applications (dApps), smart contracts, and blockchain-based solutions that bridge the gap between traditional web technologies and the emerging Web3 ecosystem."
     },
     "work": {
-        "label": "Work",
-        "title": "My projects",
-        "description": "Design and dev projects by {name}"
+      "title": "Work Experience",
+      "experiences": {
+        "StarterLabs": {
+          "timeframe": "Feb 2024 – Present",
+          "role": "FullStack Blockchain Developer",
+          "achievements": "Optimized an IDO Launchpad, enhancing user experience and performance.;Translated Figma designs into pixel-perfect frontends, responsive and accessible using Next.js.;Collaborated with a cross-functional team in an agile environment to deploy new features regularly."
+        },
+        "AGPSWeb": {
+          "timeframe": "Sep 2023 – Feb 2024",
+          "role": "Software Engineer",
+          "achievements": "Developed a dental platform using Next.js 14 facilitating efficient clinic searches for users.;Built a WebRTC meeting platform with real-time chat and video, improving virtual consultations.;Automated lead conversion from landing pages to CRM, reducing manual data entry."
+        }
+      }
     },
-    "gallery": {
-        "label": "Gallery",
-        "title": "My photo gallery",
-        "description": "A photo collection by {name}"
+    "studies": {
+      "title": "Studies",
+      "institutions": {
+        "LambtonCollege": {
+          "description": "Computer Programming Degree."
+        },
+        "Rocketseat": {
+          "description": "Web Development/Mobile Development Certificate."
+        }
+      }
     },
-    "projectCard": {
-        "label": "Read Case Study"
+    "technical": {
+      "title": "Technical skills",
+      "skills": {
+        "Solidity": {
+          "description": "Able to develop smart contracts for EVM compatible chains."
+        },
+        "Nextjs": {
+          "description": "Building next gen ReactJS apps with Next.js + Supabase."
+        }
+      }
     }
+  },
+  "blog": {
+    "label": "Blog",
+    "title": "Writing about web3 and software development...",
+    "description": "Read what {name} has been up to recently"
+  },
+  "work": {
+    "label": "Work",
+    "title": "My projects",
+    "description": "Projects by {name}"
+  },
+  "gallery": {
+    "label": "Gallery",
+    "title": "My photo gallery",
+    "description": "A photo collection by {name}"
+  },
+  "projectCard": {
+    "label": "Read Case Study"
+  }
 }
