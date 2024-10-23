@@ -1,0 +1,52 @@
+---
+title: "Pipedrive CRM and Payment Gateway Integration for AGPs Web Client"
+publishedAt: "2023-04-01"
+summary: "I integrated a client's Pipedrive CRM APIs and payment gateway with their WordPress website, capturing customer leads and streamlining the payment process. I used Docker with MinIO to simulate S3 locally, and split tasks into two separate Docker images: one for a cron job and another for the Express webhook API."
+images:
+team:
+  - name: "Tiago Soriano"
+    role: "Fullstack Developer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/tiagosoriano/"
+---
+
+## Overview
+
+I was hired by **AGPs Web**, a software outsourcing company, to integrate one of their client’s **Pipedrive CRM APIs** and **payment gateway platform** with their **WordPress website**. The client was losing potential sales because they weren’t capturing customer leads when users abandoned the payment process. To solve this, I developed a system that captured lead information before customers were redirected to the payment gateway, ensuring the lead’s contact details were stored in **Pipedrive** and allowing the sales team to follow up later.
+
+The goal was to streamline the user experience by pre-filling the payment form with the customer’s information, reducing the likelihood of abandonment. In case the customer did not complete the purchase, the sales team could follow up using the lead information captured earlier. I handled the WordPress front-end and the back-end integration with **Pipedrive** and the payment gateway, utilizing **Node.js**, **TypeScript**, and Docker for efficient deployment.
+
+## Key Features
+
+- **Lead Capture Before Payment Gateway**: I developed an intermediate page between the **WordPress website** and the **payment gateway**. When a customer submitted their information, the system captured the lead details before redirecting them to the payment platform. If the user didn’t complete the purchase, the sales team could follow up later.
+- **Pipedrive CRM Integration**: Using **Pipedrive’s API**, I ensured that all lead information was captured and saved in **Pipedrive** as a deal. If the user didn’t finish the payment process, the system would create follow-up tasks in Pipedrive for the sales team to reach out to the lead.
+- **Prefilled Payment Link**: After the lead’s information was saved, the payment link was generated with the customer’s details already prefilled, making the checkout process smoother and reducing friction for the user.
+- **Docker and MinIO for Local Development**: To simulate **AWS S3** locally, I used **MinIO** in a **Docker Compose** environment. This allowed for testing the webhook payload storage locally while ensuring the process would work seamlessly when deployed to the cloud.
+- **Separate Docker Images for Cron Job and API**: I created two separate **Docker images**—one for the **cron job** that reads the webhook payloads from S3 and pushes them to the **RabbitMQ** queue, and another for the **Express webhook API**. This architecture allowed both tasks to scale independently, optimizing resource usage and reliability.
+- **Node.js and Webhooks for Data Management**: I developed **Node.js Express APIs** to handle webhooks from the payment gateway. These webhooks were temporarily stored in **AWS S3** (or **MinIO** for local development) to ensure they were processed reliably.
+- **Cron Job with RabbitMQ**: A **cron job** was implemented to periodically process the webhook payloads stored in S3. The job picked up the payloads and placed them into a **RabbitMQ** queue, ensuring all events were processed in the correct order and preventing data loss.
+- **Elementor for WordPress Frontend**: I used **Elementor** to build the WordPress page where customers would input their information. The design was simple and user-friendly, ensuring a seamless transition to the payment gateway.
+
+## Technologies Used
+
+- **WordPress and Elementor**: Created the user-facing lead capture form using **WordPress** and **Elementor**, ensuring a smooth transition from form submission to the payment gateway.
+- **Node.js and TypeScript**: Developed the backend integration in **Node.js** with **TypeScript** to handle webhooks, lead creation, and data flow between the payment gateway and Pipedrive.
+- **Pipedrive API**: Integrated with **Pipedrive** to create deals, store lead information, and set follow-up tasks automatically based on the customer’s interaction with the system.
+- **AWS S3 and MinIO**: Used **AWS S3** for webhook payload storage in production, and **MinIO** with **Docker Compose** to simulate S3 in the local environment for development and testing.
+- **RabbitMQ**: Managed webhook events with **RabbitMQ**, ensuring reliable processing of events through a queue system.
+- **Cron Jobs**: Implemented a **cron job** to pick up webhooks from S3 and place them into a RabbitMQ queue for processing, ensuring no webhook event was missed or lost.
+- **Docker**: Created two **Docker images**—one for the **Express webhook API** and another for the **cron job**, allowing for separate scaling and deployment of these tasks.
+
+## Challenges and Learnings
+
+One of the main challenges was ensuring that no lead data was lost when users abandoned the payment process. By capturing the lead’s information early, before they were redirected to the payment gateway, and integrating with **Pipedrive**, we were able to prevent potential sales from slipping through the cracks.
+
+The use of **Docker** allowed for flexible and efficient deployment. Creating two separate Docker images—one for the **Express webhook API** and another for the **cron job**—enabled each component to scale independently based on demand. This design provided better resource management and fault tolerance.
+
+Simulating **AWS S3** with **MinIO** during local development was a valuable learning experience, as it enabled me to test the webhook payload storage process locally before moving to the cloud environment. Managing the webhook data through **RabbitMQ** queues also ensured reliable and ordered processing of events, avoiding any data loss.
+
+## Outcome
+
+This integration improved the user experience by providing a smoother checkout process and ensured the client captured all potential leads. The lead’s information was saved before the payment process, and the prefilled payment link reduced user friction, increasing the likelihood of completing the purchase. In cases where customers didn’t purchase, the sales team could follow up effectively, improving lead management and conversion rates.
+
+By using **Docker**, **Node.js**, **Pipedrive**, and **RabbitMQ**, the system was both scalable and efficient. The use of separate Docker images for different tasks ensured flexibility, allowing each component to scale based on its unique workload requirements. This project demonstrated the importance of reliable lead capture and webhook management while maintaining a smooth user experience.

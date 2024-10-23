@@ -1,0 +1,46 @@
+---
+title: "Casino Roulette on Polygon Using Chainlink RNG"
+publishedAt: "2023-04-01"
+summary: "I was hired as a Blockchain Developer to create casino roulette smart contracts using Chainlink RNG on the Polygon network. The project involved working with existing prediction market contracts and utilizing The Graph Protocol to track events, expose data through a GraphQL API, and save gas."
+images:
+team:
+  - name: "Tiago Soriano"
+    role: "Blockchain Developer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/tiagosoriano/"
+---
+
+## Overview
+
+I was hired as a **Blockchain Developer** to build a **casino roulette game** using **Solidity smart contracts** on the **Polygon** network. The project leveraged the platform's existing **prediction market contracts**, which allowed **stakers**—users with a certain amount of tokens staked—to create betting rooms. Players could enter these rooms and bet their **USDT tokens** without needing to stake anything beforehand. The winner would be selected using **Chainlink RNG** (Random Number Generator), ensuring fairness and verifiable randomness.
+
+The primary objective was to design a transparent, trustable roulette game where the betting outcomes were determined in a randomized manner using **Chainlink's decentralized oracle network**. This created a verifiable process that increased user confidence in the platform. Despite the solid technical foundation, the project was discontinued due to low user traction, and the company eventually ceased operations.
+
+## Key Features
+
+- **Casino Roulette Smart Contracts**: I developed **Solidity smart contracts** for a **casino roulette game**, integrated with the existing **prediction market contracts**. **Stakers** (users with staked tokens) could create rooms with fixed outcomes (matching the outcomes of a casino roulette game), and other players could enter the rooms and bet **USDT tokens** on their chosen outcomes.
+- **Chainlink RNG Integration**: The roulette game used **Chainlink's Random Number Generator (RNG)** to select the winning outcome randomly and verifiably. This ensured that all participants could trust that the game results were fair and transparent.
+- **Polygon Blockchain**: The game was built on the **Polygon network** to take advantage of its low transaction fees and fast processing times, essential for smooth gameplay and quick transactions.
+- **The Graph Protocol for Event Listening and API**: To save gas costs and avoid unnecessary on-chain data storage, I used **The Graph Protocol** to listen to smart contract events. This created a **GraphQL API** that exposed the data to the frontend, allowing the application to query real-time information, such as bets and outcomes, without needing to store excessive variables on-chain.
+- **Internal React Frontends**: Alongside smart contract development, I built internal **React frontends** to demonstrate the functionality of the contracts. These frontends were crucial for showcasing the progress of my work to the team and testing the integration with the existing systems.
+- **Subgraphs for Event Queries**: I implemented **subgraphs** using **The Graph** to allow clients to query event data efficiently, such as bets placed, winning outcomes, and transaction details, without overloading the blockchain with unnecessary storage.
+
+## Technologies Used
+
+- **Solidity**: Developed the **casino roulette smart contracts** on **Polygon**, integrating them with the platform’s existing prediction market contracts.
+- **Chainlink RNG**: Integrated **Chainlink's Random Number Generator (RNG)** to ensure fair and verifiable randomness in the roulette game's outcomes.
+- **Polygon**: Deployed the contracts on the **Polygon network** for its scalability, low gas fees, and fast transaction processing, making it ideal for a casino betting platform.
+- **The Graph Protocol**: Used **The Graph** to set up subgraphs that created a **GraphQL API**, exposing event data for the frontend to query efficiently. This approach significantly reduced gas costs by avoiding unnecessary on-chain data storage.
+- **React**: Built **internal React frontends** to demonstrate the progress of my work and to test the interaction between the frontend and the smart contracts.
+
+## Challenges and Learnings
+
+This project presented a unique challenge as it involved integrating **casino game mechanics** with **blockchain technology**, specifically using **Chainlink's RNG** for randomized outcomes. The task required designing a smart contract system where **stakers** could create betting rooms, and players could freely join and place bets with **USDT tokens**. Ensuring the system worked smoothly on the **Polygon network** while maintaining low gas fees and quick transaction times was a key requirement.
+
+Another critical aspect was using **The Graph Protocol** to track contract events and create a **GraphQL API**, significantly optimizing gas costs by avoiding unnecessary on-chain data storage. Building **subgraphs** that allowed querying of real-time betting events was a valuable learning experience, and it helped streamline data retrieval for the users.
+
+Developing **internal React frontends** to showcase the progress of my work was also essential. These frontends allowed for visual demonstration of how the smart contracts operated in real-time, helping the team and stakeholders to understand the system's functionality.
+
+## Outcome
+
+Despite the project's technical success and the innovative use of **Chainlink RNG** and **Polygon**, it was discontinued due to low user traction. However, the project offered invaluable experience in integrating decentralized randomness, creating efficient **casino-style smart contracts**, and optimizing data queries through **The Graph Protocol** and **GraphQL API**. The company ceased operations shortly after, but the project remains a significant highlight in my blockchain development career.

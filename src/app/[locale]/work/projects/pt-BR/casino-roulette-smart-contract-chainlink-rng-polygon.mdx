@@ -1,0 +1,46 @@
+---
+title: "Roleta de Cassino na Polygon Usando Chainlink RNG"
+publishedAt: "2023-04-01"
+summary: "Fui contratado como Desenvolvedor Blockchain para criar contratos inteligentes de roleta de cassino usando Chainlink RNG na rede Polygon. O projeto envolveu trabalhar com contratos de mercado de previsão existentes e utilizar o The Graph Protocol para rastrear eventos, expor dados através de uma API GraphQL, e economizar gás."
+images:
+team:
+  - name: "Tiago Soriano"
+    role: "Desenvolvedor Blockchain"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/tiagosoriano/"
+---
+
+## Visão Geral
+
+Fui contratado como **Desenvolvedor Blockchain** para criar um jogo de **roleta de cassino** utilizando **contratos inteligentes Solidity** na rede **Polygon**. O projeto aproveitava os **contratos de mercado de previsão** já existentes da plataforma, que permitiam que **stakers** — usuários com uma certa quantidade de tokens em stake — criassem salas de apostas. Os jogadores podiam entrar nessas salas e apostar seus tokens **USDT** sem a necessidade de fazer stake previamente. O vencedor era selecionado utilizando o **Chainlink RNG** (Gerador de Números Aleatórios), garantindo justiça e aleatoriedade verificável.
+
+O principal objetivo era projetar um jogo de roleta transparente e confiável, onde os resultados das apostas fossem determinados de maneira aleatória, utilizando a **rede oráculo descentralizada da Chainlink**. Isso criava um processo verificável que aumentava a confiança dos usuários na plataforma. Apesar da sólida base técnica, o projeto foi descontinuado devido à baixa tração de usuários, e a empresa eventualmente encerrou suas operações.
+
+## Principais Funcionalidades
+
+- **Contratos Inteligentes de Roleta de Cassino**: Desenvolvi **contratos inteligentes Solidity** para um **jogo de roleta de cassino**, integrados aos **contratos de mercado de previsão** existentes. **Stakers** (usuários com tokens em stake) podiam criar salas com resultados fixos (semelhantes aos resultados de uma roleta de cassino), e outros jogadores podiam entrar nas salas e apostar seus tokens **USDT** nos resultados escolhidos.
+- **Integração com Chainlink RNG**: O jogo de roleta utilizava o **Chainlink RNG** para selecionar aleatoriamente e de maneira verificável o resultado vencedor. Isso garantiu que todos os participantes confiassem que os resultados do jogo eram justos e transparentes.
+- **Blockchain Polygon**: O jogo foi construído na rede **Polygon** para aproveitar suas baixas taxas de transação e tempos de processamento rápidos, essenciais para uma experiência de jogo fluida e transações rápidas.
+- **The Graph Protocol para Escuta de Eventos e API**: Para economizar custos de gás e evitar o armazenamento desnecessário de dados on-chain, utilizei o **The Graph Protocol** para monitorar eventos dos contratos inteligentes. Isso criou uma **API GraphQL** que expunha os dados para o frontend, permitindo que a aplicação consultasse informações em tempo real, como apostas e resultados, sem a necessidade de armazenar variáveis excessivas on-chain.
+- **Frontends Internos em React**: Além do desenvolvimento de contratos inteligentes, criei **frontends internos em React** para demonstrar a funcionalidade dos contratos. Esses frontends foram cruciais para mostrar o progresso do meu trabalho à equipe e testar a integração com os sistemas existentes.
+- **Subgraphs para Consultas de Eventos**: Implementei **subgraphs** usando o **The Graph** para permitir que os clientes consultassem dados de eventos de forma eficiente, como apostas realizadas, resultados vencedores e detalhes de transações, sem sobrecarregar o blockchain com armazenamento desnecessário.
+
+## Tecnologias Utilizadas
+
+- **Solidity**: Desenvolvi os **contratos inteligentes de roleta de cassino** na **Polygon**, integrando-os aos contratos de mercado de previsão existentes da plataforma.
+- **Chainlink RNG**: Integrei o **Chainlink RNG** para garantir aleatoriedade justa e verificável nos resultados dos jogos de roleta.
+- **Polygon**: Implantei os contratos na rede **Polygon** por sua escalabilidade, baixas taxas de gás e processamento rápido de transações, tornando-a ideal para uma plataforma de apostas de cassino.
+- **The Graph Protocol**: Usei o **The Graph** para configurar subgraphs que criaram uma **API GraphQL**, expondo dados de eventos para o frontend consultar de forma eficiente. Essa abordagem reduziu significativamente os custos de gás ao evitar o armazenamento desnecessário de dados on-chain.
+- **React**: Criei **frontends internos em React** para demonstrar o progresso do meu trabalho e testar a interação entre o frontend e os contratos inteligentes.
+
+## Desafios e Aprendizados
+
+Este projeto apresentou um desafio único, pois envolveu a integração de **mecânicas de jogos de cassino** com **tecnologia blockchain**, especificamente utilizando o **Chainlink RNG** para resultados aleatórios. A tarefa exigiu o design de um sistema de contratos inteligentes onde **stakers** pudessem criar salas de apostas, e os jogadores pudessem ingressar livremente e fazer apostas com tokens **USDT**. Garantir que o sistema funcionasse perfeitamente na rede **Polygon**, mantendo baixas taxas de gás e tempos rápidos de transação, foi um requisito fundamental.
+
+Outro aspecto crítico foi o uso do **The Graph Protocol** para rastrear eventos dos contratos e criar uma **API GraphQL**, otimizando significativamente os custos de gás ao evitar o armazenamento desnecessário de dados on-chain. A construção de **subgraphs** que permitiram a consulta de eventos de apostas em tempo real foi uma experiência valiosa de aprendizado e ajudou a agilizar a recuperação de dados para os usuários.
+
+Desenvolver **frontends internos em React** para demonstrar o progresso do meu trabalho também foi essencial. Esses frontends permitiram uma demonstração visual de como os contratos inteligentes operavam em tempo real, ajudando a equipe e os stakeholders a entender o funcionamento do sistema.
+
+## Resultado
+
+Apesar do sucesso técnico do projeto e do uso inovador do **Chainlink RNG** e da **Polygon**, ele foi descontinuado devido à baixa tração de usuários. No entanto, o projeto proporcionou uma experiência inestimável em integrar aleatoriedade descentralizada, criar contratos inteligentes eficientes **ao estilo cassino**, e otimizar consultas de dados através do **The Graph Protocol** e **API GraphQL**. A empresa encerrou suas operações logo depois, mas o projeto permanece como um destaque significativo na minha carreira como desenvolvedor blockchain.
