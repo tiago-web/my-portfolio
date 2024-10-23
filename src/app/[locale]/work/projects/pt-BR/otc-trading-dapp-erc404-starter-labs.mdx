@@ -1,0 +1,46 @@
+---
+title: "Plataforma de Negociação OTC para Starter Labs"
+publishedAt: "2024-09-02"
+summary: "BidSwap é uma plataforma descentralizada de negociação Over-The-Counter (OTC) de criptomoedas, permitindo que os usuários negociem tokens de pré-venda de IDO, com recursos avançados como vesting, staking e programas de indicação."
+images:
+  - "/images/projects/bidswap/img-1.png"
+  - "/images/projects/bidswap/img-2.png"
+  - "/images/projects/bidswap/img-3.png"
+  - "/images/projects/bidswap/img-4.1.png"
+team:
+  - name: "Tiago Soriano"
+    role: "Desenvolvedor Blockchain"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/tiagosoriano/"
+---
+
+## Visão Geral
+
+Na Starter Labs, fui responsável por construir o **BidSwap**, uma aplicação descentralizada (dApp) de negociação Over-The-Counter (OTC) projetada para facilitar a negociação peer-to-peer de criptomoedas, especialmente tokens de pré-venda de IDO. Este projeto envolveu a criação do **frontend com React**, o **backend com Node.js**, e **contratos inteligentes usando Solidity**. A plataforma foi implantada na **Base Sepolia**.
+
+Um dos principais desafios foi garantir uma experiência de usuário suave, especialmente durante as negociações de tokens. Integramos a dApp com a plataforma de lançamento IDO da Starter Labs, permitindo que os usuários vendessem não apenas seus próprios tokens, mas também suas alocações de pré-venda. Introduzimos mecanismos de **vesting** para garantir a liberação justa e segura dos tokens e desenvolvemos recursos avançados como um programa de indicação, staking para taxas da plataforma, e o exclusivo padrão ERC404 para maior flexibilidade nas negociações de tokens.
+
+## Principais Funcionalidades
+
+- **Padrão ERC404**: Introduzimos um novo padrão onde 21.500 tokens ERC20 representam 1 token ERC721. Os usuários podem negociar tokens ERC20 em qualquer DEX suportada e tokens ERC721 em qualquer marketplace de NFT, proporcionando flexibilidade na gestão de ativos.
+- **Integração com Pré-vendas e Vesting**: Integração com a plataforma de lançamento IDO da Starter Labs, permitindo que os usuários vendessem tanto seus próprios tokens quanto suas alocações de pré-venda, com mecanismos de vesting para garantir uma liberação gradual e justa dos tokens.
+- **Programa de Indicações**: Implementamos um sistema de links de indicação que permite aos usuários ganhar taxas da plataforma ao referirem outros usuários para utilizar a plataforma de negociação OTC.
+- **Staking de Tokens ERC404**: Desenvolvemos um recurso de staking que permite aos usuários fazer staking de seus tokens ERC404 (representando ativos ERC20/721) para ganhar uma parte das taxas da plataforma, incentivando a participação a longo prazo.
+
+## Tecnologias Utilizadas
+
+- **React**: Desenvolvi o frontend utilizando React para criar uma interface de usuário responsiva e contínua.
+- **Node.js**: Criei o backend para lidar com transações seguras, interações com APIs e lógica de negócios.
+- **Solidity**: Desenvolvi contratos inteligentes, incluindo o padrão de token ERC404 e contratos de staking, garantindo segurança e descentralização.
+- **Base Sepolia**: A plataforma foi implantada na Base Sepolia para transações robustas e seguras na blockchain.
+- **Padrão ERC404**: Um padrão híbrido que permite que tokens ERC20 representem ativos ERC721, tornando os tokens negociáveis tanto em DEXes quanto em marketplaces de NFTs.
+
+## Desafios e Aprendizados
+
+Um grande desafio foi otimizar a **experiência do usuário** enquanto garantíamos negociações de tokens suaves e mecanismos de vesting seguros. A introdução do **padrão ERC404** exigiu uma integração profunda com **DEXes** para tokens ERC20 e **marketplaces de NFT** para tokens ERC721, o que envolveu um design cuidadoso dos contratos para garantir compatibilidade.
+
+Além disso, implementar o sistema de **staking** e o **programa de indicações** exigiu o equilíbrio entre incentivos aos usuários e a sustentabilidade da plataforma. O sistema de indicações precisava rastrear a atividade dos usuários e distribuir as taxas de forma justa, sem comprometer a segurança.
+
+## Resultado
+
+A plataforma **BidSwap** foi lançada com sucesso, oferecendo aos usuários uma dApp de negociação OTC versátil que se integra com as **pré-vendas de IDO da Starter Labs**. O **padrão de token ERC404** introduziu novas possibilidades de negociação, enquanto os recursos de staking e indicação aumentaram o engajamento e a participação dos usuários. A plataforma continua a evoluir, oferecendo aos usuários uma maneira única de negociar tokens com incentivos integrados para o uso a longo prazo e o crescimento do ecossistema.

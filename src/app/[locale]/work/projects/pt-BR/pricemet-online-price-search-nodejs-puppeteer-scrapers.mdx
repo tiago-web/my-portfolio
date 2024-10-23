@@ -1,0 +1,47 @@
+---
+title: "Pricemet Online: Web Scraping e Monitoramento Competitivo de Preços"
+publishedAt: "2021-05-10"
+summary: "Desenvolvi uma solução robusta de web scraping utilizando Node.js e Puppeteer para automatizar o monitoramento de preços para a Pricemet. Essa solução ajudou a reduzir o esforço manual, forneceu dados em tempo real sobre os preços dos concorrentes e gerou uma receita significativa ao otimizar o processo de busca de preços online."
+images:
+team:
+  - name: "Tiago Soriano"
+    role: "Desenvolvedor Fullstack"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/tiagosoriano/"
+---
+
+## Visão Geral
+
+Em 2021, projetei e desenvolvi com sucesso uma solução poderosa de web scraping para a **Pricemet**, líder em soluções de **inteligência de preços** para o varejo e a indústria. Este projeto foi um marco na minha carreira, pois assumi total responsabilidade pela arquitetura do backend e pela implementação, criando um sistema que permitiu à Pricemet monitorar os preços dos concorrentes em mais de 60 sites de e-commerce em tempo real. Usando **Node.js**, **Puppeteer** e **Express**, construí vários crawlers que automatizaram o processo de coleta de dados, fornecendo aos clientes da Pricemet comparações de preços em tempo real e insights valiosos.
+
+A solução não apenas reduziu o esforço manual necessário pelos consultores para realizar pesquisas de preços competitivos, mas também escalou de forma eficiente com o uso de **Amazon Elastic Load Balancing (ALB)** e **instâncias EC2**, gerenciamento de concorrência e integração de proxies para evitar bloqueios pelos sites monitorados. Os crawlers permitiram que os clientes da Pricemet monitorassem os preços diariamente, possibilitando decisões dinâmicas e otimizando suas estratégias de preços, resultando em aumento de receita.
+
+## Principais Funcionalidades
+
+- **Web Scraping com Puppeteer**: Desenvolvi mais de 60 web scrapers utilizando **Puppeteer** para extrair dados de preços de diversos sites concorrentes, navegando por estruturas de DOM complexas e empregando técnicas avançadas para evitar detecção e bloqueio pelos sites-alvo.
+- **Integração de Proxies para Prevenção de Bloqueios**: Integrei várias camadas de proxies para evitar que os sites bloqueassem nossos crawlers, garantindo que eles pudessem operar continuamente e coletar os dados necessários sem interrupções.
+- **Gerenciamento de Concorrência e Fila**: Projetei um **sistema de fila** para gerenciar a concorrência, evitando sobrecarregar o servidor. Isso permitiu que os crawlers capturassem dados de vários sites simultaneamente, mantendo um desempenho ideal.
+- **Amazon Elastic Load Balancing (ALB)**: Utilizei o **ALB** para distribuir as solicitações entre várias **instâncias EC2**, garantindo escalabilidade e alta disponibilidade da infraestrutura de web scraping.
+- **Monitoramento Competitivo de Preços em Tempo Real**: Ofereci atualizações em tempo real sobre os preços dos concorrentes para os clientes da Pricemet, permitindo que eles ajustassem suas estratégias de preços de maneira dinâmica e mantivessem uma vantagem competitiva.
+- **Logs e Tratamento de Erros**: Implementei logs detalhados e tratamento de erros para acompanhar o desempenho dos crawlers, monitorar falhas e reiniciar automaticamente qualquer scraper que encontrasse problemas, garantindo uma coleta de dados confiável.
+
+## Tecnologias Utilizadas
+
+- **Node.js e Express**: Desenvolvi o backend utilizando **Node.js** com **Express** para a API, gerenciando solicitações dos crawlers e garantindo a integração perfeita com os sistemas internos da Pricemet.
+- **Puppeteer**: Utilize **Puppeteer** para criar crawlers robustos capazes de interagir com o DOM de mais de 60 sites, extraindo dados estruturados e garantindo compatibilidade com várias arquiteturas de sites.
+- **Amazon Elastic Load Balancing (ALB)**: Utilizei o **ALB** para distribuir solicitações e balancear a carga entre várias **instâncias EC2**, garantindo escalabilidade e confiabilidade.
+- **Instâncias EC2 da AWS**: Implantei os scrapers em **instâncias EC2**, garantindo que o sistema fosse altamente disponível e pudesse escalar com o aumento da demanda.
+- **Redes de Proxy**: Integrei um sistema de gerenciamento de proxies para alternar IPs e evitar bloqueios, garantindo a operação contínua dos scrapers nos sites dos concorrentes.
+- **Gerenciamento de Fila**: Projetei um **sistema de fila** para gerenciar a concorrência, garantindo que vários scrapers pudessem operar simultaneamente sem sobrecarregar o servidor ou causar gargalos de desempenho.
+
+## Desafios e Aprendizados
+
+Um dos maiores desafios deste projeto foi evitar que os crawlers fossem bloqueados pelos sites-alvo. Ao integrar **redes de proxies** e rotacionar os IPs, consegui garantir que os scrapers navegassem pelos sites sem serem detectados. Além disso, lidar com as estruturas complexas de DOM em mais de 60 sites diferentes exigiu um entendimento profundo de como cada site funcionava, além da capacidade de adaptar dinamicamente os scrapers a mudanças no layout dos sites.
+
+Escalar o sistema de forma eficiente foi outro desafio. Ao utilizar **Amazon Elastic Load Balancing (ALB)** e implementar um **sistema de fila**, consegui garantir que os scrapers rodassem simultaneamente sem sobrecarregar o servidor, permitindo que o sistema lidasse com grandes volumes de processamento de dados.
+
+Este projeto também aprofundou meu conhecimento em **coleta de dados em tempo real** e no design de arquiteturas escaláveis para soluções de backend, além de aumentar minha experiência em integrar sistemas e **APIs** de terceiros.
+
+## Resultado
+
+A solução que desenvolvi para o **Pricemet Online** foi um grande sucesso, permitindo que a Pricemet oferecesse um serviço de **monitoramento de preços altamente competitivo e automatizado** para seus clientes. O sistema ainda está em uso hoje, fornecendo insights em tempo real sobre os preços dos concorrentes e permitindo que as empresas otimizem seus próprios preços de forma dinâmica. Este projeto contribuiu para o aumento da receita da Pricemet ao automatizar processos manuais, melhorar a eficiência das pesquisas de preços e entregar inteligência de preços valiosa para os clientes. É um dos meus maiores orgulhos profissionais, pois projetei e implementei a arquitetura do zero, garantindo que fosse escalável, confiável e eficiente.

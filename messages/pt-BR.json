@@ -13,8 +13,8 @@
     "label": "Início",
     "title": "Portfólio de {name}",
     "description": "Site de portfólio que exibe meu trabalho como {role}",
-    "headline": "Engenheiro de software",
-    "subline": "Sou Tiago, um engenheiro de software na Starter Labs, onde construo soluções web3 escaláveis e seguras. Nas horas vagas, crio meus próprios projetos."
+    "headline": "Blockchain Engineer",
+    "subline": "Sou Tiago, um engenheiro de software web3 na Starter Labs, onde construo dApps escaláveis e seguras. Nas horas vagas, crio meus próprios projetos."
   },
   "about": {
     "label": "Sobre",
@@ -22,7 +22,7 @@
     "description": "Conheça {name}, {role} de {location}",
     "intro": {
       "title": "Introdução",
-      "description": "Tiago é um engenheiro de software localizado no Brasil, com uma paixão por transformar desafios complexos em soluções escaláveis e seguras. Sua especialidade está no desenvolvimento de aplicativos descentralizados (dApps), contratos inteligentes e soluções baseadas em blockchain, que conectam tecnologias web tradicionais ao emergente ecossistema Web3."
+      "description": "Tiago é um engenheiro de software web3 localizado no Brasil, com uma paixão por transformar desafios complexos em soluções escaláveis e seguras. Sua especialidade está no desenvolvimento de aplicativos descentralizados (dApps), contratos inteligentes e soluções baseadas em blockchain, que conectam tecnologias web tradicionais ao emergente ecossistema Web3."
     },
     "work": {
       "title": "Experiência Profissional",

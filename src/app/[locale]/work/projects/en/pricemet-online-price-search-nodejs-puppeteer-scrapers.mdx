@@ -1,0 +1,47 @@
+---
+title: "Pricemet Online: Web Scraping and Competitive Price Monitoring"
+publishedAt: "2021-05-10"
+summary: "I developed a robust web scraping solution using Node.js and Puppeteer to automate price monitoring for Pricemet. This solution helped reduce manual effort, provided real-time data on competitor pricing, and generated significant revenue by streamlining the online price search process."
+images:
+team:
+  - name: "Tiago Soriano"
+    role: "Fullstack Developer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/tiagosoriano/"
+---
+
+## Overview
+
+In 2021, I successfully designed and developed a powerful web scraping solution for **Pricemet**, a leader in **pricing intelligence** solutions for retail and industry. This project was a turning point in my career as I took full ownership of the backend architecture and implementation, creating a system that allowed Pricemet to monitor competitor pricing across 60+ e-commerce websites in real-time. Using **Node.js**, **Puppeteer**, and **Express**, I built multiple crawlers that automated the data collection process, providing Pricemet's clients with real-time price comparisons and actionable insights.
+
+The solution not only reduced the manual effort required by consultants to perform competitive price searches but also scaled efficiently using **AWS** with load balancing, concurrency handling, and proxy integration to avoid being blocked by websites. The crawlers provided Pricemet's clients with the ability to monitor prices daily, making real-time pricing decisions and boosting revenue by optimizing their pricing strategies.
+
+## Key Features
+
+- **Web Scraping with Puppeteer**: Built over 60+ web scrapers using **Puppeteer** to extract pricing data from various competitor websites, navigating complex DOM structures and employing advanced techniques to avoid detection and blocking by the target sites.
+- **Proxy Integration for Block Prevention**: Integrated multiple proxy layers to prevent websites from blocking our crawlers. This ensured the scrapers could run continuously and collect the required data without interruption.
+- **Concurrency and Queue Management**: Designed a **queue system** to manage concurrency, preventing the server from being overwhelmed. This allowed the crawlers to scrape data from multiple websites simultaneously while maintaining optimal performance.
+- **Amazon Elastic Load Balancing (ALB)**: Utilized **ALB** to distribute requests across multiple **EC2 instances**, ensuring scalability and high availability of the web scraping infrastructure.
+- **Real-Time Competitive Price Monitoring**: Provided real-time updates on competitor prices to Pricemet's clients, enabling them to adjust their pricing strategies dynamically and maintain a competitive edge.
+- **Logs and Error Handling**: Implemented detailed logging and error handling to track the performance of the scrapers, monitor failures, and automatically restart any scrapers that encountered issues, ensuring reliable data collection.
+
+## Technologies Used
+
+- **Node.js and Express**: Built the backend using **Node.js** with **Express** for the API, handling incoming requests from the scrapers and ensuring seamless integration with Pricemet’s internal systems.
+- **Puppeteer**: Leveraged **Puppeteer** to create powerful web crawlers that could interact with the DOM of over 60+ websites, extracting structured data and ensuring compatibility with various website architectures.
+- **Amazon Elastic Load Balancing (ALB)**: Used **ALB** to distribute requests and balance the load across multiple **EC2 instances**, ensuring scalability and reliability.
+- **AWS EC2 Instances**: Deployed the scrapers on **EC2 instances**, ensuring that the system was highly available and could scale with increased demand.
+- **Proxy Networks**: Integrated a proxy management system to rotate proxies and avoid IP blocks, ensuring the continuous operation of the scrapers across competitor websites.
+- **Queue Management**: Designed a **queue system** to handle concurrency, ensuring multiple scrapers could run simultaneously without overwhelming the server or causing performance bottlenecks.
+
+## Challenges and Learnings
+
+One of the biggest challenges in this project was preventing the crawlers from being blocked by the target websites. By integrating **proxy networks** and rotating IPs, I ensured that the scrapers could navigate the websites undetected. Additionally, handling the complex **DOM structures** across 60+ different websites required a deep understanding of how each site functioned, as well as the ability to dynamically adapt the scrapers to changes in the website layouts.
+
+Scaling the system efficiently was another challenge. By using **AWS** load balancing and implementing a **queue system**, I was able to ensure that the scrapers ran concurrently without overloading the server, allowing the system to handle large volumes of data processing.
+
+This project also deepened my knowledge of **real-time data collection** and architecture design for scalable backend solutions, as well as my experience in integrating with **third-party systems** and **APIs**.
+
+## Outcome
+
+The solution I developed for **Pricemet Online** was a significant success, enabling Pricemet to offer a highly competitive and automated **price monitoring service** to its clients. The system is still in use today, providing real-time insights into competitor pricing and allowing companies to optimize their own prices dynamically. This project contributed to increased revenue for Pricemet by automating manual processes, improving the efficiency of price research, and delivering valuable pricing intelligence to clients. It remains one of the proudest achievements in my career, as I designed and implemented the architecture from scratch, ensuring it was scalable, reliable, and efficient.

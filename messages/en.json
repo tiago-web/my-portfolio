@@ -14,7 +14,7 @@
     "title": "{name}'s Portfolio",
     "description": "Portfolio website showcasing my work as a {role}",
     "headline": "Blockchain Engineer",
-    "subline": "I'm Tiago, a software engineer at Starter Labs, where I build scalable and secure web3 solutions. After hours, I build my own projects."
+    "subline": "I'm Tiago, a web3 software engineer at Starter Labs, where I build scalable and secure dApps. After hours, I build my own projects."
   },
   "about": {
     "label": "About",
@@ -22,7 +22,7 @@
     "description": "Meet {name}, {role} from {location}",
     "intro": {
       "title": "Introduction",
-      "description": "Tiago is a software engineer based in Brazil with a passion for transforming complex challenges into scalable and secure solutions. His expertise lies in developing decentralized applications (dApps), smart contracts, and blockchain-based solutions that bridge the gap between traditional web technologies and the emerging Web3 ecosystem."
+      "description": "Tiago is a web3 software engineer based in Brazil with a passion for transforming complex challenges into scalable and secure solutions. His expertise lies in developing decentralized applications (dApps), smart contracts, and blockchain-based solutions that bridge the gap between traditional web technologies and the emerging Web3 ecosystem."
     },
     "work": {
       "title": "Work Experience",

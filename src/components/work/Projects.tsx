@@ -25,8 +25,6 @@ export function Projects({ range, locale }: ProjectsProps) {
     );
   });
 
-  console.log({ sortedProjects });
-
   const displayedProjects = range
     ? sortedProjects.slice(range[0] - 1, range[1] ?? sortedProjects.length)
     : sortedProjects;

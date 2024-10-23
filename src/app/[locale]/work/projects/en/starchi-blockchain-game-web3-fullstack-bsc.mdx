@@ -1,0 +1,47 @@
+---
+title: "Starchi: Blockchain Game"
+publishedAt: "2022-04-08"
+summary: "Starchi was a blockchain-based game built on Binance Smart Chain (BSC) Testnet, blending the mechanics of Pokémon Go and Tamagotchi. I worked as a Web3 Fullstack Developer, handling everything from the React frontend, Node.js backend, and Solidity smart contracts, to real-time WebSocket battles."
+images:
+  - "/images/projects/starchi/video-1.mp4"
+  - "/images/projects/starchi/video-2.mp4"
+team:
+  - name: "Tiago Soriano"
+    role: "Blockchain Developer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/tiagosoriano/"
+---
+
+## Overview
+
+**Starchi** was a blockchain-based game developed on the **Binance Smart Chain (BSC) Testnet**, where I worked as a **Web3 Fullstack Developer**. The game was designed as a mix between **Pokémon Go** and **Tamagotchi**, offering players the ability to mint, evolve, and battle digital pets called Starchies. This project provided me with a deep dive into **blockchain game development**, using technologies like **Solidity**, **React**, and **Node.js**. I collaborated closely with a Unity team, integrating smart contracts with the frontend and ensuring a seamless player experience.
+
+Players would mint their Starchies as eggs, and over time, these pets would evolve, gaining attributes based on their breed. Each Starchi had unique traits—water pets excelled against fire, while electric pets had their own advantages against others. As players trained and cared for their pets (feeding, playing, sleeping, showering), they could battle other players in **1v1, 2v2, or 3v3 combat**, with all interactions handled through **WebSocket connections** and a **Node.js backend** that I developed.
+
+## Key Features
+
+- **ERC721 Pet NFTs with Random Attributes**: I developed the smart contracts for pet minting, where each Starchi NFT had randomized attributes like `maxHp`, `maxStamina`, `maxHungry`, and `maxExercise`, making every pet unique.
+- **Real-Time Battles (1v1, 2v2, 3v3)**: I created the WebSocket infrastructure to enable real-time battles between players. Players could battle using one, two, or three pets, with an in-game chat system and a pot system where players could wager tokens for battle rewards.
+- **Player Economy and Tokenization**: Implemented an **ERC20 token** system where players had to pay tokens for each in-game action (feeding, playing, sleeping, showering) to ensure their pets were in optimal condition before battles.
+- **Starchi Marketplace**: Created a marketplace where players could buy, sell, or trade their Starchies, adding another layer to the game's economy.
+- **Staking for Platform Fee Sharing**: Developed a staking mechanism where players could stake their tokens to earn a share of the platform's fees, adding further incentive for players to participate in the game's economy.
+- **Pet Evolution with Unique Breeds**: Pets would evolve over time, with different breeds (water, fire, electric, wind, etc.) gaining different abilities. Pets also had specific roles, such as support characters, which added strategic depth to battles.
+- **Leaderboard and Ranking System**: Implemented a competitive ranking system where players could track their progress and earn rewards based on their performance in battles.
+
+## Technologies Used
+
+- **Solidity**: Developed the smart contracts for the ERC721 Starchi NFTs and the ERC20 token for in-game actions. Also built contracts for staking and platform fee sharing.
+- **React**: Created the frontend using React, providing a smooth and responsive user experience for players interacting with the blockchain.
+- **Node.js**: Built the backend for real-time player interactions using Node.js and WebSockets to handle battles, communication, and transaction validation.
+- **WebSockets**: Enabled real-time battle functionality between players, complete with chat features and live pot management for wagers.
+- **Binance Smart Chain (BSC) Testnet**: Deployed the entire game on the BSC Testnet to test and validate smart contract interactions and game mechanics.
+
+## Challenges and Learnings
+
+Building **Starchi** was my first real exposure to the **Web3 and blockchain development world**, and it was both challenging and rewarding. One of the most complex aspects was ensuring a seamless **user experience** when interacting with blockchain features, such as minting NFTs, battling pets in real-time, and managing in-game economies with tokens and staking. Ensuring the **WebSocket connections** between players were smooth and real-time during battles required careful optimization of both the backend and smart contracts.
+
+Additionally, the development of the **ERC721 and ERC20 smart contracts** was a deep learning experience. I had to balance randomness and fairness in pet attributes while maintaining the security and integrity of the contracts. Integrating these contracts into the game while working closely with the Unity team also taught me valuable lessons about cross-team collaboration and the intersection of blockchain and traditional game development.
+
+## Outcome
+
+Although the project did not move beyond its **beta release** on the BSC Testnet, it was an incredible learning opportunity. **Starchi** allowed me to grow my skills as a **Web3 Fullstack Developer**, learning how to create decentralized applications, manage real-time interactions with WebSockets, and integrate complex smart contracts into an engaging game environment. The project was well-received by early testers, and despite its unfinished state, it remains a milestone in my journey as a **blockchain developer**.

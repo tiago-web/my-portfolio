@@ -1,0 +1,47 @@
+---
+title: "Starchi: Jogo na Blockchain na BSC Testnet"
+publishedAt: "2022-04-08"
+summary: "Starchi é um jogo baseado em blockchain construído na Binance Smart Chain (BSC) Testnet, combinando as mecânicas de Pokémon Go e Tamagotchi. Trabalhei como Desenvolvedor Web3 Fullstack, lidando com o frontend em React, backend em Node.js e contratos inteligentes em Solidity, além de batalhas em tempo real com WebSocket."
+images:
+  - "/images/projects/starchi/video-1.mp4"
+  - "/images/projects/starchi/video-2.mp4"
+team:
+  - name: "Tiago Soriano"
+    role: "Desenvolvedor Blockchain"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/tiagosoriano/"
+---
+
+## Visão Geral
+
+O **Starchi** foi um jogo baseado em blockchain desenvolvido na **Binance Smart Chain (BSC) Testnet**, onde atuei como **Desenvolvedor Web3 Fullstack**. O jogo foi projetado como uma mistura de **Pokémon Go** e **Tamagotchi**, permitindo que os jogadores mintassem, evoluíssem e batalhassem com pets digitais chamados Starchies. Este projeto me proporcionou uma imersão profunda no desenvolvimento de jogos em **blockchain**, utilizando tecnologias como **Solidity**, **React** e **Node.js**. Colaborei diretamente com a equipe de Unity, integrando contratos inteligentes ao frontend e garantindo uma experiência fluida para os jogadores.
+
+Os jogadores mintavam seus Starchies como ovos, e ao longo do tempo, esses pets evoluíam, ganhando atributos com base na raça. Cada Starchi tinha características únicas—pets de água eram melhores contra fogo, enquanto pets elétricos tinham suas vantagens contra outros. À medida que os jogadores treinavam e cuidavam de seus pets (alimentando, brincando, colocando para dormir e dando banho), eles poderiam batalhar com outros jogadores em **combates 1v1, 2v2 ou 3v3**, com todas as interações sendo gerenciadas por **WebSocket** e um **backend Node.js** que desenvolvi.
+
+## Principais Funcionalidades
+
+- **ERC721 Pet NFTs com Atributos Aleatórios**: Desenvolvi os contratos inteligentes para o mint de pets, onde cada Starchi NFT tinha atributos aleatórios como `maxHp`, `maxStamina`, `maxHungry` e `maxExercise`, tornando cada pet único.
+- **Batalhas em Tempo Real (1v1, 2v2, 3v3)**: Criei a infraestrutura de WebSocket para permitir batalhas em tempo real entre jogadores. Os jogadores podiam batalhar com um, dois ou três pets, com um sistema de chat no jogo e um sistema de apostas, onde os jogadores apostavam tokens para batalhar.
+- **Economia dos Jogadores e Tokenização**: Implementei um sistema de tokens **ERC20** onde os jogadores pagavam tokens para cada ação no jogo (alimentar, brincar, dormir, tomar banho) para garantir que seus pets estivessem em condição ideal antes das batalhas.
+- **Marketplace de Starchi**: Criei um marketplace onde os jogadores podiam comprar, vender ou trocar seus Starchies, adicionando uma camada extra à economia do jogo.
+- **Staking para Compartilhamento de Taxas da Plataforma**: Desenvolvi um mecanismo de staking onde os jogadores podiam fazer staking de seus tokens para ganhar uma parte das taxas da plataforma, incentivando a participação contínua na economia do jogo.
+- **Evolução de Pets com Raças Únicas**: Os pets evoluíam ao longo do tempo, com diferentes raças (água, fogo, elétrico, vento, etc.) ganhando habilidades diferentes. Pets também tinham funções específicas, como suporte, o que adicionava uma profundidade estratégica às batalhas.
+- **Sistema de Ranking e Classificação**: Implementei um sistema competitivo de ranking onde os jogadores podiam acompanhar seu progresso e ganhar recompensas com base no desempenho nas batalhas.
+
+## Tecnologias Utilizadas
+
+- **Solidity**: Desenvolvi os contratos inteligentes para os NFTs ERC721 Starchi e o token ERC20 para ações no jogo. Também criei contratos para staking e compartilhamento de taxas da plataforma.
+- **React**: Desenvolvi o frontend usando React, proporcionando uma experiência de usuário fluida e responsiva para os jogadores interagirem com a blockchain.
+- **Node.js**: Construí o backend para interações em tempo real entre jogadores utilizando Node.js e WebSockets para gerenciar batalhas, comunicação e validação de transações.
+- **WebSockets**: Habilitei a funcionalidade de batalhas em tempo real entre jogadores, com recursos de chat e gerenciamento de apostas ao vivo.
+- **Binance Smart Chain (BSC) Testnet**: Implementei todo o jogo na BSC Testnet para testar e validar as interações dos contratos inteligentes e as mecânicas do jogo.
+
+## Desafios e Aprendizados
+
+O desenvolvimento do **Starchi** foi meu primeiro contato real com o mundo do **desenvolvimento Web3 e blockchain**, e foi ao mesmo tempo desafiador e gratificante. Um dos aspectos mais complexos foi garantir uma **experiência de usuário fluida** ao interagir com recursos de blockchain, como mintar NFTs, batalhar pets em tempo real e gerenciar economias dentro do jogo com tokens e staking. Garantir que as **conexões WebSocket** entre os jogadores fossem suaves durante as batalhas exigiu uma otimização cuidadosa tanto do backend quanto dos contratos inteligentes.
+
+Além disso, o desenvolvimento dos **contratos inteligentes ERC721 e ERC20** foi uma grande oportunidade de aprendizado. Tive que equilibrar aleatoriedade e justiça nos atributos dos pets, mantendo a segurança e a integridade dos contratos. A integração desses contratos no jogo, enquanto trabalhava em conjunto com a equipe Unity, também me ensinou lições valiosas sobre colaboração entre equipes e a interseção entre desenvolvimento de jogos e blockchain.
+
+## Resultado
+
+Embora o projeto não tenha passado do lançamento **beta** na BSC Testnet, foi uma incrível oportunidade de aprendizado. **Starchi** me permitiu crescer como **Desenvolvedor Web3 Fullstack**, aprendendo a criar aplicativos descentralizados, gerenciar interações em tempo real com WebSockets e integrar contratos inteligentes complexos em um ambiente de jogo envolvente. O projeto foi bem recebido pelos testadores iniciais e, apesar de não estar concluído, permanece como um marco importante na minha jornada como **desenvolvedor blockchain**.
