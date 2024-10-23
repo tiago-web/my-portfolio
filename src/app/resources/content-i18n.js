@@ -135,19 +135,13 @@ const createI18nContent = (t) => {
           title: "Solidity",
           description: <>{t("about.technical.skills.Solidity.description")}</>,
           images: [
-            // todo: add images
-            // {
-            //   src: "/images/projects/project-01/cover-02.jpg",
-            //   alt: "Project image",
-            //   width: 16,
-            //   height: 9,
-            // },
-            // {
-            //   src: "/images/projects/project-01/cover-03.jpg",
-            //   alt: "Project image",
-            //   width: 16,
-            //   height: 9,
-            // },
+            // todo: add more images
+            {
+              src: "/images/projects/starter-labs/img-1.png",
+              alt: "Starter Labs",
+              width: 16,
+              height: 9,
+            },
           ],
         },
         {

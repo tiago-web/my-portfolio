@@ -1,8 +1,5 @@
 const baseURL = "tiagosoriano.dev";
 
-// Enable localization
-const i18n = true;
-
 // Manage localized content in the messages folder
 const i18nOptions = {
   locales: ["en", "pt-BR"], // A list of all locales that are supported, e.g. ['en','id']
@@ -63,6 +60,5 @@ export {
   display,
   mailchimp,
   baseURL,
-  i18n,
   i18nOptions,
 };

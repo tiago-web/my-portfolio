@@ -12,7 +12,6 @@ import { routing } from "@/i18n/routing";
 import { Locale, usePathname, useRouter } from "@/i18n/routing";
 import { renderContent } from "@/app/resources";
 import { useTranslations } from "next-intl";
-import { i18n } from "@/app/resources/config";
 
 type TimeDisplayProps = {
   timeZone: string;
@@ -171,19 +170,18 @@ export const Header = () => {
             gap="2"
             justifyContent="center"
           >
-            {i18n &&
-              routing.locales.map((locale, index) => (
-                <ToggleButton
-                  key={index}
-                  selected={params?.locale === locale}
-                  onClick={() => handleLanguageChange(locale)}
-                  className={
-                    (isPending && "pointer-events-none opacity-60") || ""
-                  }
-                >
-                  {locale.toUpperCase()}
-                </ToggleButton>
-              ))}
+            {routing.locales.map((locale, index) => (
+              <ToggleButton
+                key={index}
+                selected={params?.locale === locale}
+                onClick={() => handleLanguageChange(locale)}
+                className={
+                  (isPending && "pointer-events-none opacity-60") || ""
+                }
+              >
+                {locale.toUpperCase()}
+              </ToggleButton>
+            ))}
           </Flex>
         )}
         {/* <Flex hide="s">
