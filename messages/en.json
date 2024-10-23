@@ -1,6 +1,8 @@
 {
   "person": {
-    "role": "FullStack & Blockchain Developer"
+    "role": "FullStack & Blockchain Developer",
+    "languages": "English;Portuguese",
+    "location": "Brazil/Balneário Camboriú"
   },
   "newsletter": {
     "title": "Subscribe to {firstName}'s Newsletter",

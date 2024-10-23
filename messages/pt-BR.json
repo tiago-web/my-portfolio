@@ -1,6 +1,8 @@
 {
   "person": {
-    "role": "Desenvolvedor FullStack & Blockchain"
+    "role": "Desenvolvedor FullStack & Blockchain",
+    "languages": "Inglês;Português",
+    "location": "Brasil/Balneário Camboriú"
   },
   "newsletter": {
     "title": "Inscreva-se na Newsletter de {firstName}",

@@ -134,7 +134,7 @@ export default function About({
             </Flex>
             {person.languages.length > 0 && (
               <Flex wrap gap="8">
-                {person.languages.map((language, index) => (
+                {person.languages.map((language: string, index: number) => (
                   <Tag key={index} size="l">
                     {language}
                   </Tag>

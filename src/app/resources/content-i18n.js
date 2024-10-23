@@ -1,5 +1,3 @@
-import { InlineCode } from "@/once-ui/components";
-
 const createI18nContent = (t) => {
   const person = {
     firstName: "Tiago",
@@ -9,8 +7,8 @@ const createI18nContent = (t) => {
     },
     role: t("person.role"),
     avatar: "/images/avatar.jpg",
-    location: "Brazil/Balneário Camboriú", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ["English", "Portuguese"], // optional: Leave the array empty if you don't want to display languages
+    location: t("person.location"), // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: t("person.languages").split(";"),
   };
 
   const newsletter = {
@@ -91,7 +89,7 @@ const createI18nContent = (t) => {
             // optional: leave the array empty if you don't want to display images
             // todo: add images
             {
-              src: "/images/projects/starter-labs/starter-platform.png",
+              src: "/images/projects/starter-labs/img-1.png",
               alt: "Starter Labs",
               width: 16,
               height: 9,
