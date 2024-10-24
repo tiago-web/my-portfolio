@@ -22,42 +22,71 @@
     "description": "Conheça {name}, {role} de {location}",
     "intro": {
       "title": "Introdução",
-      "description": "Tiago é um engenheiro de software web3 localizado no Brasil, com uma paixão por transformar desafios complexos em soluções escaláveis e seguras. Sua especialidade está no desenvolvimento de aplicativos descentralizados (dApps), contratos inteligentes e soluções baseadas em blockchain, que conectam tecnologias web tradicionais ao emergente ecossistema Web3."
+      "description": "Tiago é um Desenvolvedor FullStack & Blockchain baseado no Brasil, com paixão por transformar desafios complexos em soluções escaláveis e seguras. Sua especialidade está no desenvolvimento de aplicações descentralizadas (dApps), contratos inteligentes e soluções baseadas em blockchain, que conectam tecnologias web tradicionais ao emergente ecossistema Web3."
     },
     "work": {
-      "title": "Experiência Profissional",
+      "title": "Experiência de Trabalho",
       "experiences": {
-        "StarterLabs": {
+        "StarterLabs2": {
           "timeframe": "Fev 2024 – Presente",
           "role": "Desenvolvedor FullStack Blockchain",
-          "achievements": "Otimização de uma plataforma IDO Launchpad, melhorando a experiência do usuário e o desempenho.; Tradução de designs do Figma em frontends perfeitos, responsivos e acessíveis usando Next.js.; Colaboração com uma equipe multifuncional em um ambiente ágil para implementar novas funcionalidades regularmente."
+          "achievements": "Otimização do Starter.xyz, uma plataforma de IDO Launchpad, aprimorando a experiência do usuário e o desempenho.; Traduziu designs do Figma em frontends pixel-perfect, responsivos e acessíveis usando Next.js.; Liderou o desenvolvimento do BidSwap, uma plataforma de trading OTC, integrando contratos de pré-venda IDO existentes do Starter.xyz.; Implementou funcionalidades de vesting e staking de NFTs usando contratos inteligentes Solidity.; Melhorou o desempenho da plataforma e a velocidade de compilação usando Vite, além de aprimorar as interações Web3 com Ethers.js."
         },
         "AGPSWeb": {
           "timeframe": "Set 2023 – Fev 2024",
           "role": "Engenheiro de Software",
-          "achievements": "Desenvolvimento de uma plataforma odontológica utilizando Next.js 14, facilitando a busca eficiente de clínicas pelos usuários.; Criação de uma plataforma de reuniões WebRTC com chat e vídeo em tempo real, melhorando as consultas virtuais.; Automação da conversão de leads de páginas de captura para o CRM, reduzindo a entrada manual de dados."
+          "achievements": "Criou automações de conversão de leads de landing pages e caixas de entrada de e-mails para o Pipedrive CRM, reduzindo a entrada manual de dados e garantindo que nenhum lead fosse perdido.; Desenvolveu uma plataforma odontológica usando Next.js 14, facilitando buscas eficientes por clínicas para os usuários.; Desenvolveu automações de backend com Node.js e TypeScript, integrando APIs do Google para exportar dados do Pipedrive para o Google Sheets.; Criou soluções escaláveis baseadas em Docker para otimizar processos de desenvolvimento e deployment entre ambientes."
+        },
+        "DoubleDice": {
+          "timeframe": "Out 2022 – Set 2023",
+          "role": "Desenvolvedor Blockchain",
+          "achievements": "Desenvolveu contratos inteligentes descentralizados para roleta de cassino usando Solidity na Polygon, integrando o Chainlink RNG para aleatoriedade verificável.; Implementou subgrafos personalizados com o The Graph Protocol para otimizar consultas de dados on-chain e reduzir taxas de gas.; Criou testes unitários abrangentes para contratos inteligentes, aumentando a cobertura geral dos testes.; Integrei os contratos inteligentes de roleta com os contratos de mercado de previsão existentes, permitindo que os usuários apostassem em resultados predefinidos.; Desenvolveu frontends internos em React para demonstrar e testar a funcionalidade dos contratos inteligentes, usando tecnologias Web3 como Ethers.js para uma integração perfeita."
+        },
+        "StarterLabs": {
+          "timeframe": "Set 2021 – Out 2022",
+          "role": "Desenvolvedor FullStack Blockchain",
+          "achievements": "Liderou o desenvolvimento do Starchi, um jogo baseado em blockchain que combina mecânicas de Pokémon e Tamagotchi.; Desenvolveu contratos inteligentes Solidity para NFTs (ERC721) com atributos aleatórios para jogabilidade, utilizando o Chainlink RNG Oracle para garantir aleatoriedade verificável.; Integrado React.js para o frontend, WebSockets para interação em tempo real e Node.js para o backend.; Criou o marketplace de NFTs, permitindo que os jogadores trocassem personagens e itens no jogo."
+        },
+        "KClub": {
+          "timeframe": "Jul 2019 – Set 2021",
+          "role": "Desenvolvedor FullStack",
+          "achievements": "Desenvolveu a plataforma SaaS de RH Ekantika, permitindo avaliações de desempenho 360 graus com perguntas e feedbacks customizáveis.; Desenvolveu crawlers web para o projeto Pricemet usando Node.js para extrair dados de preços de mais de 60 sites de e-commerce.; Implementou ferramentas de automação para analisar tendências de preços e integrou os resultados nos sistemas CRM dos clientes, aprimorando a inteligência de precificação."
+        },
+        "Freelancer": {
+          "timeframe": "2017 – 2019",
+          "role": "Desenvolvedor Frontend e Mobile",
+          "achievements": "Desenvolveu o aplicativo móvel de saúde EverDoctor usando React Native, permitindo que os usuários encontrassem médicos, agendassem consultas e gerenciassem benefícios de saúde familiares.; Criou funcionalidades que permitiam aos usuários adicionar membros da família a seus planos e acessar prestadores de serviços de saúde próximos.; Focado em construir uma experiência de usuário perfeita em dispositivos iOS e Android, garantindo navegação fluida e desempenho otimizado no aplicativo."
         }
       }
     },
     "studies": {
-      "title": "Formação",
+      "title": "Formação Acadêmica",
       "institutions": {
         "LambtonCollege": {
-          "description": "Diploma em Programação."
+          "description": "Graduação em Programação de Computadores."
         },
         "Rocketseat": {
-          "description": "Certificado em Desenvolvimento Web/Desenvolvimento Mobile."
+          "description": "Certificação em Desenvolvimento Web/Mobile."
         }
       }
     },
     "technical": {
-      "title": "Habilidades Técnicas",
+      "title": "Principais Habilidades Técnicas",
       "skills": {
         "Solidity": {
-          "description": "Capaz de desenvolver contratos inteligentes para blockchains compatíveis com EVM."
+          "description": "Experiência em escrever e implantar contratos inteligentes em blockchains compatíveis com EVM, como Polygon, Binance Smart Chain (BSC) e Base."
         },
-        "Nextjs": {
-          "description": "Construo apps ReactJS de próxima geração com Next.js + Supabase."
+        "React": {
+          "description": "Habilidade em construir interfaces de usuário dinâmicas e responsivas usando React com Next.js ou Vite."
+        },
+        "Nodejs": {
+          "description": "Especialista em desenvolver serviços de backend e integrações de API usando Node.js, Express, Nest.js e TypeScript/JavaScript."
+        },
+        "TypeScript": {
+          "description": "Forte conhecimento em JavaScript e TypeScript, utilizado para garantir qualidade e escalabilidade no código, tanto em projetos de frontend quanto backend."
+        },
+        "Docker": {
+          "description": "Proficiente em containerizar aplicações usando Docker, criando soluções escaláveis e portáteis para deployment."
         }
       }
     }

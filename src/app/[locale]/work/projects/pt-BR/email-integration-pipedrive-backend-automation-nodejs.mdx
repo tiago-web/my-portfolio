@@ -1,0 +1,47 @@
+---
+title: "Integração de Caixa de Entrada de E-mails e Pipedrive para AGPs Web"
+publishedAt: "2023-08-22"
+summary: "Desenvolvi uma automação de backend para integrar caixas de entrada de e-mails com o Pipedrive CRM, permitindo a adição automática de leads e ajustes no pipeline. O projeto também incluiu a exportação de detalhes do Pipedrive para o Google Sheets, usando Node.js, TypeScript e Docker."
+images:
+team:
+  - name: "Tiago Soriano"
+    role: "Desenvolvedor Backend"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/tiagosoriano/"
+---
+
+## Visão Geral
+
+Fui contratado pela **AGPs Web**, uma empresa de outsourcing de software, para automatizar a integração entre as **caixas de entrada de e-mails** de um cliente e o **Pipedrive CRM**. O cliente precisava de uma solução que escaneasse automaticamente os e-mails recebidos e identificasse leads que ainda não estavam adicionados no sistema **Pipedrive**. O objetivo era agilizar o processo de captura de novos leads provenientes de e-mails de marketing, garantindo que todos os clientes potenciais fossem adicionados ao pipeline.
+
+Além disso, criei uma rotina para exportar dados do Pipedrive para o **Google Sheets** usando **APIs do Google**. Esse processo permitiu ao cliente acessar facilmente informações importantes do CRM em um formato estruturado de **Excel**. Eu desenvolvi toda a automação de backend em **Node.js** e **TypeScript**, integrando com a **API do Pipedrive** e gerenciando o fluxo de dados entre as caixas de entrada de e-mail e o CRM.
+
+## Principais Funcionalidades
+
+- **Integração de Leads de E-mails com o Pipedrive**: A solução escaneava automaticamente a **caixa de entrada do cliente** em busca de novos leads de marketing que ainda não estavam adicionados ao **Pipedrive**. Quando um novo lead era detectado, a automação o adicionava ao CRM e atualizava o pipeline de acordo.
+- **Automação e Ajustes no Pipeline do Pipedrive**: Como parte do projeto, fiz **automação de processos no Pipedrive** e otimizações no fluxo de pipeline, garantindo que os leads fossem categorizados e processados de maneira eficiente.
+- **Exportação de Dados para o Google Sheets**: Implementei uma rotina de **exportação de dados do Pipedrive** que coletava informações chave do CRM e as salvava em um arquivo de **Excel** hospedado no **Google Sheets**. Isso permitiu ao cliente acessar e analisar facilmente os dados do Pipedrive.
+- **Integração com APIs do Google para Google Sheets**: Para exportar os dados do Pipedrive, integrei com as **APIs do Google**, permitindo a transferência fluida de dados entre o **Pipedrive** e o **Google Sheets**.
+- **Docker para Configuração do Ambiente**: Criei uma **imagem Docker** para empacotar a automação de backend, garantindo que a solução pudesse ser facilmente implantada e escalada em diferentes ambientes.
+
+## Tecnologias Utilizadas
+
+- **Node.js e TypeScript**: Desenvolvi a lógica de backend em **Node.js** com **TypeScript**, automatizando o processo de escaneamento de e-mails, adição de leads e atualizações no pipeline do CRM.
+- **API do Pipedrive**: Integrei com a **API do Pipedrive** para automatizar o processo de adicionar leads e gerenciar os estágios do pipeline.
+- **APIs do Google (Integração com Sheets)**: Usei as **APIs do Google** para exportar dados importantes do Pipedrive para o **Google Sheets**, tornando-os facilmente acessíveis e compartilháveis com a equipe do cliente.
+- **Integração com Excel**: A rotina salvava os dados do CRM Pipedrive em arquivos de **Excel**, hospedados no **Google Sheets**, fornecendo um formato familiar para análise de dados.
+- **Docker**: Empacotei todo o projeto em uma **imagem Docker**, permitindo que a automação fosse facilmente implantada e escalada em diferentes ambientes.
+
+## Desafios e Aprendizados
+
+Um dos principais desafios foi garantir que o processo de escaneamento de e-mails fosse eficiente e capaz de lidar com grandes volumes de mensagens recebidas. Integrando com a **API do Pipedrive**, automatizei o processo de adição de leads, garantindo que nenhum cliente potencial fosse ignorado. O gerenciamento do fluxo de pipeline também foi essencial, já que o cliente precisava customizar os estágios para se adequar melhor aos seus processos de negócios.
+
+A exportação dos dados do Pipedrive para o **Google Sheets** exigiu uma integração perfeita entre **Node.js** e as **APIs do Google**, o que permitiu a exportação de dados em tempo real para um formato **Excel**. Esse recurso forneceu ao cliente uma maneira fácil de analisar seus dados do CRM sem precisar acessar o Pipedrive constantemente.
+
+A criação da **imagem Docker** ajudou a otimizar o processo de implantação, garantindo que a automação pudesse ser escalada e mantida em diferentes ambientes. Este projeto ampliou minha expertise em **Node.js**, **APIs do Google**, e **integração com Pipedrive CRM**, além de destacar a importância de criar soluções automatizadas e escaláveis.
+
+## Resultado
+
+Este projeto automatizou com sucesso o processo de captura de novos leads a partir de caixas de entrada de e-mails e sua adição ao **Pipedrive**, melhorando o gerenciamento de leads do cliente e garantindo que nenhuma oportunidade fosse perdida. A rotina de **exportação de dados para o Google Sheets** permitiu ao cliente acessar e analisar facilmente os dados do CRM em um formato estruturado, facilitando a tomada de decisões. Ao empacotar o projeto em uma **imagem Docker**, a solução tornou-se escalável e fácil de implantar em diferentes ambientes, oferecendo flexibilidade para melhorias futuras ou novas integrações.
+
+Este projeto de automação de backend demonstrou o poder do **Node.js**, **Pipedrive**, e das **APIs do Google** para otimizar processos de negócios, sendo uma adição valiosa ao fluxo de trabalho do cliente.

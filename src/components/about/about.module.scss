@@ -20,12 +20,12 @@
 .tableOfContents {
   left: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-45%);
   white-space: "nowrap";
 }
 
-@media (max-width: 1330px) {
-  .tableOfContents {
-    transform: translateY(-8%);
-  }
-}
+// @media (max-width: 1330px) {
+//   .tableOfContents {
+//     transform: translateY(-8%);
+//   }
+// }

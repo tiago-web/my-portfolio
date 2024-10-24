@@ -22,20 +22,40 @@
     "description": "Meet {name}, {role} from {location}",
     "intro": {
       "title": "Introduction",
-      "description": "Tiago is a web3 software engineer based in Brazil with a passion for transforming complex challenges into scalable and secure solutions. His expertise lies in developing decentralized applications (dApps), smart contracts, and blockchain-based solutions that bridge the gap between traditional web technologies and the emerging Web3 ecosystem."
+      "description": "Tiago is a FullStack & Blockchain Developer based in Brazil with a passion for transforming complex challenges into scalable and secure solutions. His expertise lies in developing decentralized applications (dApps), smart contracts, and blockchain-based solutions that bridge the gap between traditional web technologies and the emerging Web3 ecosystem."
     },
     "work": {
       "title": "Work Experience",
       "experiences": {
-        "StarterLabs": {
+        "StarterLabs2": {
           "timeframe": "Feb 2024 – Present",
           "role": "FullStack Blockchain Developer",
-          "achievements": "Optimized an IDO Launchpad, enhancing user experience and performance.;Translated Figma designs into pixel-perfect frontends, responsive and accessible using Next.js.;Collaborated with a cross-functional team in an agile environment to deploy new features regularly."
+          "achievements": "Optimized Starter.xyz, an IDO Launchpad, enhancing user experience and performance.; Translated Figma designs into pixel-perfect frontends, responsive and accessible using Next.js.; Led the development of BidSwap, an OTC trading platform, integrating with existing IDO presale contracts from Starter.xyz.; Implemented vesting and NFT staking features using Solidity smart contracts.; Improved platform performance and build speed using Vite, while enhancing Web3 interactions with Ethers.js."
         },
         "AGPSWeb": {
           "timeframe": "Sep 2023 – Feb 2024",
           "role": "Software Engineer",
-          "achievements": "Developed a dental platform using Next.js 14 facilitating efficient clinic searches for users.;Built a WebRTC meeting platform with real-time chat and video, improving virtual consultations.;Automated lead conversion from landing pages to CRM, reducing manual data entry."
+          "achievements": "Created automated lead conversion from landing pages and email inboxes to Pipedrive CRM, reducing manual data entry and ensuring no leads were missed.; Developed a dental platform using Next.js 14, facilitating efficient clinic searches for users.; Developed backend automation with Node.js and TypeScript, integrating with Google APIs to export Pipedrive data into Google Sheets.; Created scalable Docker-based solutions to streamline development and deployment processes across environments."
+        },
+        "DoubleDice": {
+          "timeframe": "Oct 2022 – Sep 2023",
+          "role": "Blockchain Developer",
+          "achievements": "Developed decentralized casino roulette smart contracts using Solidity on Polygon, integrating Chainlink RNG for verifiable randomness.; Implemented custom subgraphs using The Graph Protocol to optimize on-chain data queries and reduce gas fees.; Created comprehensive unit tests for smart contracts, increasing overall test coverage.; Integrated the roulette smart contracts with the existing prediction market smart contracts, allowing users to bet on predefined outcomes.; Built internal React frontends to showcase and test smart contract functionality, using Web3 technologies like Ethers.js for seamless integration."
+        },
+        "StarterLabs": {
+          "timeframe": "Sep 2021 – Oct 2022",
+          "role": "FullStack Blockchain Developer",
+          "achievements": "Led the development of Starchi, a blockchain-based game combining mechanics of Pokémon and Tamagotchi.; Developed Solidity smart contracts for NFTs (ERC721) with random attributes for gameplay, using Chainlink RNG Oracle to ensure verifiable randomness.; Integrated React.js for the frontend, WebSockets for real-time interaction, and Node.js for the backend.; Built the NFT marketplace, enabling players to trade in-game characters and assets."
+        },
+        "KClub": {
+          "timeframe": "Jul 2019 – Sep 2021",
+          "role": "FullStack Developer",
+          "achievements": "Developed the Ekantika HR SaaS platform, enabling 360-degree performance evaluations with customizable questions and feedback.; Built web crawlers for the Pricemet project using Node.js to extract pricing data from over 60 e-commerce websites.; Implemented automation tools to analyze pricing trends and integrated the results into client CRM systems, enhancing pricing intelligence."
+        },
+        "Freelancer": {
+          "timeframe": "2017 – 2019",
+          "role": "Frontend and Mobile Developer",
+          "achievements": "Developed the EverDoctor healthcare mobile app using React Native, enabling users to find doctors, schedule appointments, and manage family health benefits.; Created features allowing users to add family members to their plans and access nearby healthcare providers.; Focused on building a seamless user experience across iOS and Android devices, ensuring smooth navigation and performance within the app."
         }
       }
     },
@@ -51,13 +71,22 @@
       }
     },
     "technical": {
-      "title": "Technical skills",
+      "title": "Top technical skills",
       "skills": {
         "Solidity": {
-          "description": "Able to develop smart contracts for EVM compatible chains."
+          "description": "Experienced in writing and deploying smart contracts on EVM-compatible chains like Polygon, Binance Smart Chain (BSC) and Base."
         },
-        "Nextjs": {
-          "description": "Building next gen ReactJS apps with Next.js + Supabase."
+        "React": {
+          "description": "Skilled in building responsive and dynamic user interfaces using React with Next.js or Vite."
+        },
+        "Nodejs": {
+          "description": "Expert in building backend services and API integrations using Node.js, Express, Nest.js, and TypeScript/Javascript."
+        },
+        "TypeScript": {
+          "description": "Strong foundation in Javascript and TypeScript, used to ensure code quality and scalability in backend and frontend projects."
+        },
+        "Docker": {
+          "description": "Proficient in containerizing applications using Docker for scalable and portable deployment solutions."
         }
       }
     }

@@ -80,17 +80,21 @@ const createI18nContent = (t) => {
       experiences: [
         {
           company: "Starter Labs",
-          timeframe: t("about.work.experiences.StarterLabs.timeframe"),
-          role: t("about.work.experiences.StarterLabs.role"),
+          timeframe: t("about.work.experiences.StarterLabs2.timeframe"),
+          role: t("about.work.experiences.StarterLabs2.role"),
           achievements: t(
-            "about.work.experiences.StarterLabs.achievements"
+            "about.work.experiences.StarterLabs2.achievements"
           ).split(";"),
           images: [
-            // optional: leave the array empty if you don't want to display images
-            // todo: add images
             {
               src: "/images/projects/starter-labs/img-1.png",
               alt: "Starter Labs",
+              width: 16,
+              height: 9,
+            },
+            {
+              src: "/images/projects/bidswap/img-1.png",
+              alt: "BidSwap",
               width: 16,
               height: 9,
             },
@@ -104,7 +108,86 @@ const createI18nContent = (t) => {
             ";"
           ),
           images: [
-            // todo: add images
+            {
+              src: "/images/projects/smartaligner/img-1.png",
+              alt: "SmartAligner",
+              width: 16,
+              height: 9,
+            },
+            {
+              src: "/images/projects/smartaligner/img-2.png",
+              alt: "SmartAligner",
+              width: 16,
+              height: 9,
+            },
+          ],
+        },
+        {
+          company: "DoubleDice",
+          timeframe: t("about.work.experiences.DoubleDice.timeframe"),
+          role: t("about.work.experiences.DoubleDice.role"),
+          achievements: t(
+            "about.work.experiences.DoubleDice.achievements"
+          ).split(";"),
+          images: [],
+        },
+        {
+          company: "StarterLabs",
+          timeframe: t("about.work.experiences.StarterLabs.timeframe"),
+          role: t("about.work.experiences.StarterLabs.role"),
+          achievements: t(
+            "about.work.experiences.StarterLabs.achievements"
+          ).split(";"),
+          images: [
+            {
+              src: "/images/projects/starchi/video-1.mp4",
+              alt: "Starchi",
+              width: 16,
+              height: 9,
+            },
+            {
+              src: "/images/projects/starchi/video-2.mp4",
+              alt: "Starchi",
+              width: 16,
+              height: 9,
+            },
+          ],
+        },
+        {
+          company: "KClub",
+          timeframe: t("about.work.experiences.KClub.timeframe"),
+          role: t("about.work.experiences.KClub.role"),
+          achievements: t("about.work.experiences.KClub.achievements").split(
+            ";"
+          ),
+          images: [],
+        },
+        {
+          company: "Freelancer",
+          timeframe: t("about.work.experiences.Freelancer.timeframe"),
+          role: t("about.work.experiences.Freelancer.role"),
+          achievements: t(
+            "about.work.experiences.Freelancer.achievements"
+          ).split(";"),
+          images: [
+            {
+              src: "/images/projects/everdoctor/img-1.png",
+              alt: "EverDoctor",
+              width: 16,
+              height: 9,
+            },
+            // {
+            //   src: "/images/projects/everdoctor/img-2.png",
+            //   alt: "EverDoctor",
+            //   width: 16,
+            //   height: 9,
+            // },
+            {
+              src: "/images/projects/everdoctor/img-3.png",
+              alt: "EverDoctor",
+              width: 16,
+              height: 9,
+            },
           ],
         },
       ],
@@ -134,28 +217,30 @@ const createI18nContent = (t) => {
         {
           title: "Solidity",
           description: <>{t("about.technical.skills.Solidity.description")}</>,
-          images: [
-            // todo: add more images
-            {
-              src: "/images/projects/starter-labs/img-1.png",
-              alt: "Starter Labs",
-              width: 16,
-              height: 9,
-            },
-          ],
+          // images: [], // If I want to add images to skills, I need to uncomment on the html
+        },
+
+        {
+          title: "React",
+          description: <>{t("about.technical.skills.React.description")}</>, // "." not accepted in next-intl namespace
+          // images: [],
         },
         {
-          title: "Next.js",
-          description: <>{t("about.technical.skills.Nextjs.description")}</>, // "." not accepted in next-intl namespace
-          images: [
-            // todo: add images
-            // {
-            //   src: "/images/projects/project-01/cover-04.jpg",
-            //   alt: "Project image",
-            //   width: 16,
-            //   height: 9,
-            // },
-          ],
+          title: "Node.js",
+          description: <>{t("about.technical.skills.Nodejs.description")}</>, // "." not accepted in next-intl namespace
+          // images: [],
+        },
+        {
+          title: "TypeScript",
+          description: (
+            <>{t("about.technical.skills.TypeScript.description")}</>
+          ), // "." not accepted in next-intl namespace
+          // images: [],
+        },
+        {
+          title: "Docker",
+          description: <>{t("about.technical.skills.Docker.description")}</>, // "." not accepted in next-intl namespace
+          // images: [],
         },
       ],
     },

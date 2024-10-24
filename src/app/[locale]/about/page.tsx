@@ -120,6 +120,8 @@ export default function About({
           <TableOfContents structure={structure} about={about} />
         </Flex>
       )}
+
+      {/* todo: fix when it's on a tablet view */}
       <Flex fillWidth mobileDirection="column" justifyContent="center">
         {about.avatar.display && (
           <Flex
@@ -373,7 +375,9 @@ export default function About({
                     <Text variant="body-default-m" onBackground="neutral-weak">
                       {skill.description}
                     </Text>
-                    {skill.images.length > 0 && (
+
+                    {/* todo: uncomment this when I decide to add images to skills */}
+                    {/* {skill.images.length > 0 && (
                       <Flex fillWidth paddingTop="m" gap="12" wrap>
                         {skill.images.map((image, index) => (
                           <Flex
@@ -394,7 +398,7 @@ export default function About({
                           </Flex>
                         ))}
                       </Flex>
-                    )}
+                    )} */}
                   </Flex>
                 ))}
               </Flex>
