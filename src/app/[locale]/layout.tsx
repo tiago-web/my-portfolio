@@ -21,6 +21,7 @@ import { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 import { renderContent } from "@/app/resources";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import dynamic from "next/dynamic";
 
 export async function generateMetadata({
   params: { locale },
